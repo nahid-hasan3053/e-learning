@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Image } from 'react-bootstrap';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 const CourseDetails = () => {
 
     const info = useLoaderData();
@@ -17,6 +17,7 @@ const CourseDetails = () => {
                         {details}
                     </>
                 </Card.Body>
+                <Link to='/'>Back to Home</Link>
             </Card>
         </div>
     );
