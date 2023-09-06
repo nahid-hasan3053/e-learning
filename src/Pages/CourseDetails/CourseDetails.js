@@ -17,6 +17,7 @@ const CourseDetails = () => {
                         {details}
                     </>
                 </Card.Body>
+                <Link to='/checkout'>Purchase Course</Link>
                 <Link to='/'>Back to Home</Link>
             </Card>
         </div>
